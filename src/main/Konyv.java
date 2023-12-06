@@ -14,6 +14,11 @@ public class Konyv extends AbstractTermek implements Kolcsonozheto{
         super(cim);
     }
 
+    public boolean isKolcsonzesreAlkalmas() {
+        return KolcsonzesreAlkalmas;
+    }
+    
+
     @Override
     public boolean kolcsonozheto() {
         

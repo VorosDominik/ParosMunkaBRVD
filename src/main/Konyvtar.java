@@ -41,6 +41,26 @@ public class Konyvtar {
             }
         }
     }
+    public void kolcsonozhető(){
+            System.out.println("A könyvtárban lévő  kolcsonozhető termékek");
+        for (AbstractTermek termek : getTermekek()) {
+            if (termek != null) {
+                
+                if(termek instanceof Magazin){
+                      System.out.println(termek);
+                } 
+                
+                
+                else {
+                  ;
+                }
+            }
+        }
+    
+    
+    
+    
+    }
 
     public static void run() {
          Konyvtar k1 = new Konyvtar(5);
@@ -54,7 +74,7 @@ public class Konyvtar {
         
         
         k1.termekek();
-            
+        k1.kolcsonozhető();
         
     }
 }
