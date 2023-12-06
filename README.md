@@ -1,4 +1,4 @@
 # ParosMunkaBRVD
 
-Bella Richard
-Vörös Dominik
+- Bella Richard
+- Vörös Dominik
